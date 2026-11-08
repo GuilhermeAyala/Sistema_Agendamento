@@ -32,3 +32,10 @@ Classes/Entidades:
 Para rodar o projeto:
 1- cd sistema_agendamento_rails
 2- rails server
+
+Caso não consiga rodar:
+1- Verifique se as versões existem: ruby -v, gem-v, rails-v, se existirem, próximo
+1.1 - Não se esqueça de rodar o:  $env:Path += ";C:\Ruby40-x64\bin", caso não funcione os anteriores
+2- verificar se o bundle está ok: bundle check - deve retornar = The Gemfile's dependencies are satisfied
+3- se tudo isso passou, verifique se o application.rb está ok, coloque no terminal: Test-Path .\config\application.rb, se voltar True, siga o próximo passo
+4- rode rails server e deve abrir a porta 3000
