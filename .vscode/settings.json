@@ -1,0 +1,18 @@
+{
+  "terminal.integrated.env.windows": {
+    "PATH": "C:\\Ruby40-x64\\bin;${env:PATH}"
+  },
+  "rubyLsp.rubyExecutablePath": "C:\\Ruby40-x64\\bin\\ruby.exe",
+  "rubyLsp.rubyVersionManager": {
+    "identifier": "none"
+  },
+  "rubyLsp.formatter": "rubocop",
+  "editor.semanticHighlighting.enabled": true,
+  "[ruby]": {
+    "editor.defaultFormatter": "Shopify.ruby-lsp",
+    "editor.formatOnSave": false,
+    "editor.formatOnType": true,
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true
+  }
+}
